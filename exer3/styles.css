@@ -1,0 +1,48 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /*gets rid of white line on top of page that automatically appears*/
+
+.toolbar {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #D9D9D9;
+}
+
+.menu{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    /*background-color: pink;*/
+    
+    
+}
+
+.bottomRunner{
+    height: 10vh;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+#googleIcon {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+#userIcon {
+    height: 45px;
+    width: 37px;
+    border-radius: 50%;
+}
+a {
+    width: 95px;
+    background: #3603FF;
+    color: white;
+}
