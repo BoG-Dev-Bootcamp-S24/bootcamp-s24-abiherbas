@@ -25,6 +25,38 @@
     
 }
 
+.searchPage{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.searchEngine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.entButton{
+    height: 54px;
+    width: 122px;
+    margin-left: 15px;
+    background: #0085FF;
+    border-radius: 20px;
+    border: 1px solid black;
+
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
 .bottomRunner{
     height: 10vh;
     width: 100vw;
@@ -40,9 +72,36 @@
     height: 45px;
     width: 37px;
     border-radius: 50%;
+    background: white;
 }
 a {
     width: 95px;
     background: #3603FF;
     color: white;
+}
+
+h1{
+    
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+input{
+    width: 650px;
+    height: 54px;
+    border-radius: 20px;
+    background: #D9D9D9;
+    border: 1px solid black;
+
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
 }
