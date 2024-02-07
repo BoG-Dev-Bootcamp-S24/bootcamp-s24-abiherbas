@@ -13,6 +13,44 @@
     border-bottom: 1px solid black;
 }
 
+.searchResults{
+    display:flex;
+    height: 90vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cellList {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cell {
+    display: flex;
+    height: 25%;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    background: #D9D9D9;
+    padding: 10px;
+    margin: 5px;
+}
+
+.card{
+    display: flex;
+    height: 60%;
+    width: 30%;
+    flex-direction: column;
+    background: yellow;
+}
+
 
 input{
     width: 650px;
@@ -27,4 +65,26 @@ input{
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0038FF;
+
+}
+
+p{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
 }
