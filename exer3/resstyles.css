@@ -79,6 +79,8 @@ input{
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
+
+    padding-left: 10px;
 }
 
 h1 {
